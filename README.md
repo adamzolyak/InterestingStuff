@@ -6,6 +6,7 @@ FastAI
 * progressive resizing = train a model at 64x64 then 128x128 then256x256
 * start w/ a model that's already somewhat trained 
 * if train loss > valid loss, you're underfitting.  try more epocs or training unfrozen at a lower learning rate
+* 1/2 precision training https://docs.fast.ai/basic_train.html#to_fp16
 
 ## InterestingStuff
 Things to come back to later...
