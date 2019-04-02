@@ -7,6 +7,14 @@ FastAI
 * start w/ a model that's already somewhat trained 
 * if train loss > valid loss, you're underfitting.  try more epocs or training unfrozen at a lower learning rate
 * 1/2 precision training https://docs.fast.ai/basic_train.html#to_fp16
+* Tensor = an array.
+* Tensor = data in a rectangular pattern.  Could be Rank (number of dimensions) 1, 2, 3, etc.
+* In math, normally it’s rows x columns.  So a 640 x 480 photo (640 width x 480 height) would normally be referred to as 480 x 640 when taking about math.
+* Rank = number of axises.  An image is rank 3 (w x h x d).
+* Vector = 1 dimensional array
+* Matrix = 2 dimensional array
+* Coefficients = paramaters
+* Matrix Product = Matrix Multiplication 
 
 ## InterestingStuff
 Things to come back to later...
